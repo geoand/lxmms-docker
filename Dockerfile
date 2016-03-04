@@ -5,7 +5,7 @@ MAINTAINER Georgios Andrianakis geoand@gmail.com
 #make bash the default shell
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
-ENV MMS_COMMUNITY_VERSION 1.9.2
+ENV MMS_COMMUNITY_VERSION 1.9.3
 ENV MMS_FILE_NAME_NO_ARCH mms-v$MMS_COMMUNITY_VERSION-community-linux.tar.gz
 
 RUN curl -O http://packages.litixsoft.de/mms/$MMS_COMMUNITY_VERSION/mms-v$MMS_COMMUNITY_VERSION-community-linux.tar.gz
